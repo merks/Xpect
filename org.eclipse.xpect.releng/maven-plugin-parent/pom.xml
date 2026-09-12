@@ -17,7 +17,7 @@
 	<properties>
 		<target-platform>xpect_r202403</target-platform>
 		<xtextVersion>2.43.0</xtextVersion>
-		<tycho-version>5.0.3</tycho-version>
+		<tycho-version>5.0.4</tycho-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -109,7 +109,7 @@
 							${maven.multiModuleProjectDirectory}/${target-platform}.target
 						</file>
 					</target>
-					<executionEnvironment>JavaSE-21</executionEnvironment>
+					<executionEnvironment>JavaSE-25</executionEnvironment>
 					<environments>
 						<environment>
 							<os>macosx</os>
@@ -271,7 +271,7 @@
 					<plugin>
 						<groupId>org.eclipse.cbi.maven.plugins</groupId>
 						<artifactId>eclipse-jarsigner-plugin</artifactId>
-						<version>1.4.2</version>
+						<version>1.5.7</version>
 						<executions>
 							<execution>
 								<id>sign</id>
